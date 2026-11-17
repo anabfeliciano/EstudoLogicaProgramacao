@@ -11,7 +11,7 @@ int main() {
     // Começa no 2 (i=2), vai até o 10 (i<=10), pulando de 2 em 2 (i+=2)
     for (i = 2; i <= 10; i += 2) {
         
-        soma += i; // Guarda o valor anterior da soma e adiciona o 'i' atual
+        soma += i; // Guarda o valor agit log -1 --statnterior da soma e adiciona o 'i' atual
 
         // Isso vai mostrar o que acontece em cada rodada (passo a passo)
         printf("Passo atual (i): %d | O cofrinho (soma) agora vale: %d\n", i, soma);
